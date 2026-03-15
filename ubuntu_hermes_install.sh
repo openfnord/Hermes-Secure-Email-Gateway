@@ -86,7 +86,8 @@ SCRIPTPATH=$(pwd)
 TIMESTAMP=`date +%m-%d-%Y-%H%M`
 
 #Set Authelia Version
-AUTHELIAVER="v4.37.2"
+#AUTHELIAVER="v4.37.2"
+AUTHELIAVER="v4.39.16"
 
 #Get System IP to be used for Authelia and Nginx configs
 THEIP=`hostname -I | cut -d' ' -f1 | xargs`
